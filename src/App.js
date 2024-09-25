@@ -1,6 +1,6 @@
 import React from "react";
-import Main from "./Components/main";
-import "./Components/style.css";
+import Main from "./components/Main";
+import "./components/style.css";
 
 function App() {
   return (
@@ -9,3 +9,5 @@ function App() {
     </>
   );
 }
+
+export default App;
