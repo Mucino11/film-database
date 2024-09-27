@@ -41,7 +41,7 @@ const Main = () => {
         "/discover/movie?with_genres=18&primary_release_year=2014" +
         API_key;
     }
-    if (movieType == "Comedie") {
+    if (movieType == "Comedy") {
       url =
         base_url +
         "/discover/movie?with_genres=35&with_cast=23659&sort_by=revenue.desc" +
