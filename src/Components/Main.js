@@ -2,7 +2,7 @@ import { getDefaultNormalizer } from "@testing-library/react";
 import { useState } from "react";
 import { useEffect } from "react";
 import Card from "./Card";
-let API_key = "&api_key=db95773a7fb212ba790d71f6adac0e7e";
+let API_key = "&api_key=5daa5c9a397dee1df411083e079a8ec2";
 let base_url = "https://api.themoviedb.org/3";
 let url = base_url + "/discover/movie?sort_by=popularity.desc" + API_key;
 
